@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Wildwood Press Shop | Modern print-on-demand art, apparel, and decor</title>
+ <meta name="description" content="A New Hampshire graphic design studio creating print-on-demand art, apparel, and decor for curious, creative people. Modern artwork across many styles — minimalism, geometric, retro, AI-assisted.">
+ <link rel="canonical" href="https://shop.bacotti.com/">
+ <meta property="og:title" content="Wildwood Press Shop — A print shop in the wildwoods">
+ <meta property="og:description" content="Modern print-on-demand art, apparel, and decor. A small graphic design studio in New Hampshire.">
+ <meta property="og:type" content="website">
+ <meta property="og:url" content="https://shop.bacotti.com/">
+ <meta property="og:image" content="https://shop.bacotti.com/og-image.png">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Recoleta:wght@600;700&display=swap" rel="stylesheet">
+ <!-- Google tag (gtag.js) — GA4 (BacottiBot-consolidated property 533719692, stream 15053339008) -->
+ <script async src="https://www.googletagmanager.com/gtag/js?id=G-VG72SVH45E"></script>
+ <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-VG72SVH45E');
+ </script>
+ <style>
+  :root {
+   --cream: #F5EDD8;
+   --bark: #4A3826;
+   --moss: #5A7A52;
+   --moss-dark: #4a6542;
+   --sunset: #E68A4C;
+   --serif: "Recoleta", Georgia, "Times New Roman", serif;
+   --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { min-height: 100vh; }
+  body {
+   font-family: var(--sans);
+   background: var(--cream);
+   color: var(--bark);
+   line-height: 1.65;
+   display: flex;
+   flex-direction: column;
+  }
+  main {
+   flex: 1;
+   max-width: 760px;
+   margin: 0 auto;
+   padding: 3rem 1.5rem 4rem;
+  }
+  header { padding-top: 2rem; text-align: center; }
+  .pine-row {
+   display: flex;
+   justify-content: space-between;
+   padding: 0 1.5rem;
+   font-size: 1.5rem;
+   color: var(--moss);
+   opacity: 0.45;
+   letter-spacing: 0.4em;
+  }
+  .sun {
+   width: 60px;
+   height: 60px;
+   background: var(--sunset);
+   border-radius: 50%;
+   margin: 1.5rem auto 0;
+   opacity: 0.9;
+   box-shadow: 0 0 40px 8px rgba(230, 138, 76, 0.18);
+  }
+  h1 {
+   font-family: var(--serif);
+   font-weight: 700;
+   font-size: clamp(2.5rem, 8vw, 4.5rem);
+   letter-spacing: 0.04em;
+   color: var(--bark);
+   line-height: 1.1;
+   margin-top: 2rem;
+   text-align: center;
+  }
+  .tagline {
+   font-family: var(--serif);
+   font-style: italic;
+   font-weight: 600;
+   font-size: clamp(1.1rem, 3vw, 1.5rem);
+   color: var(--moss);
+   margin-top: 1.25rem;
+   letter-spacing: 0.02em;
+   text-align: center;
+  }
+  .divider {
+   width: 80px;
+   height: 2px;
+   background: var(--bark);
+   opacity: 0.3;
+   margin: 2.5rem auto;
+  }
+  .about {
+   font-size: 1.0625rem;
+   max-width: 620px;
+   margin: 0 auto;
+   line-height: 1.75;
+  }
+  .about p { margin-bottom: 1.1rem; }
+  .about p:last-child { margin-bottom: 0; }
+  .signoff {
+   font-style: italic;
+   color: var(--moss);
+   margin-top: 1.5rem !important;
+  }
+  .cta {
+   margin-top: 3rem;
+   padding: 1rem 2rem;
+   display: inline-block;
+   background: var(--moss);
+   color: var(--cream);
+   text-decoration: none;
+   border-radius: 4px;
+   font-weight: 500;
+   letter-spacing: 0.05em;
+   text-transform: uppercase;
+   font-size: 0.875rem;
+   transition: background 0.2s;
+   text-align: center;
+  }
+  .cta:hover { background: var(--moss-dark); }
+  .cta-wrap { text-align: center; }
+  .secondary {
+   margin-top: 1.25rem;
+   font-size: 0.85rem;
+   color: var(--bark);
+   opacity: 0.55;
+   text-align: center;
+  }
+  .secondary a { color: var(--bark); text-decoration: underline; }
+  .styles {
+   margin: 3.5rem auto 0;
+   max-width: 620px;
+  }
+  .styles h2 {
+   font-family: var(--sans);
+   font-weight: 600;
+   font-size: 0.85rem;
+   letter-spacing: 0.12em;
+   text-transform: uppercase;
+   color: var(--moss);
+   text-align: center;
+   margin-bottom: 1.5rem;
+  }
+  .styles-grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+   gap: 0.75rem;
+  }
+  .style-chip {
+   background: rgba(90, 122, 82, 0.08);
+   border: 1px solid rgba(90, 122, 82, 0.2);
+   color: var(--bark);
+   padding: 0.6rem 0.9rem;
+   border-radius: 999px;
+   font-size: 0.85rem;
+   text-align: center;
+   font-weight: 500;
+  }
+  footer {
+   padding: 2.5rem 1.5rem 2rem;
+   text-align: center;
+   font-size: 0.85rem;
+   color: var(--bark);
+   opacity: 0.55;
+   border-top: 1px solid rgba(74, 56, 38, 0.15);
+   margin-top: 3rem;
+  }
+  footer p { margin-bottom: 0.35rem; }
+  footer a { color: var(--bark); }
+  @media (max-width: 640px) {
+   .pine-row { font-size: 1.1rem; }
+   .styles-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+ </style>
+</head>
+<body>
+ <header>
+  <div class="pine-row"><span>🌲</span><span>🌲</span></div>
+  <div class="sun"></div>
+ </header>
+ <main>
+  <h1>Wildwood Press Shop</h1>
+  <p class="tagline">A print shop in the wildwoods.</p>
+  <div class="divider"></div>
+  <div class="about">
+   <p>Modern graphic design studio creating print-on-demand art, apparel, and decor for curious, creative people.</p>
+   <p>I'm Mike, the designer behind Wildwood Press Shop — a small graphic design studio experimenting with bold, modern artwork across many styles. From clean minimalism and geometric abstractions to retro vibes and experimental AI-assisted pieces, I love exploring new looks so your space (or wardrobe) never feels generic.</p>
+   <p>Every design starts in my New Hampshire studio, where I sketch, refine, and prepare artwork specifically for high-quality print-on-demand production. I work with Printful to produce and ship each piece on demand, which means less waste, consistent quality, and a wide range of options — from wall art and posters to apparel and accessories.</p>
+   <p>My goal is to create art that feels personal, thoughtful, and a little bit unexpected — whether you're decorating your home office, gifting a friend, or refreshing your everyday style. When you order from this shop, you're supporting an independent creator and getting a design made with intention, not a mass-market template.</p>
+   <p>If you're looking for a specific color palette, style, or niche theme, feel free to send me a message. I'm always open to custom work and new ideas.</p>
+   <p class="signoff">— Mike, Wildwood Press Shop</p>
+  </div>
+  <div class="cta-wrap">
+   <a class="cta" href="https://etsy.com/shop/WildwoodPressShop" rel="noopener">Visit our Etsy shop →</a>
+  </div>
+  <p class="secondary">Shop opens Spring 2026 · <a href="mailto:hello@shop.bacotti.com">hello@shop.bacotti.com</a></p>
+  <div class="styles">
+   <h2>Styles we work in</h2>
+   <div class="styles-grid">
+    <div class="style-chip">Minimalism</div>
+    <div class="style-chip">Geometric</div>
+    <div class="style-chip">Retro</div>
+    <div class="style-chip">Vintage</div>
+    <div class="style-chip">Typography</div>
+    <div class="style-chip">Quote art</div>
+    <div class="style-chip">AI-assisted</div>
+    <div class="style-chip">Line art</div>
+    <div class="style-chip">Botanical</div>
+    <div class="style-chip">Abstract</div>
+   </div>
+  </div>
+ </main>
+ <footer>
+  <p>Wildwood Press Shop · New Hampshire · est. 2026</p>
+  <p>A <a href="https://bacotti.com/">Bacotti Inc.</a> business.</p>
+ </footer>
+</body>
+</html>
